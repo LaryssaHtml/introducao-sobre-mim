@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Play';
+    src: url('../fontes/Play\ Day\ -\ Personal\ Use.otf') format('opentype');
+}
+
+:root {
+    --cor-principal:  #9F4BF2;
+    --cor-leve:       #AF8AFF;
+    --cor-paragrafos: #D8BDFF;
+    --cor-de-titulos: #803DDB;
+    --cor-subtitulo:  #E3D6FF;
+    --cor-extra:      #726B80;
+    --cor-nav:        #EFDFFC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.conteiner{
+    padding: 0px 50px;
+}
+
+nav {
+    font-family: 'Play', sans-serif;
+    font-size: 2rem;
+    
+}
+
+
+nav > ul {
+    display: flex;
+    padding: 20px;
+   justify-content: space-between; 
+   list-style-type:  none;
+   align-items: center;
+   
+}
+
+
+
+nav > ul > li > a {
+    color: var(--cor-nav);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: var(--cor-extra);
+    transition: 0.6s;
+}
+
+ header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid var(--cor-principal);
+}
+
+.coruja img {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border: none;
+    
+}
+
+
+.imagem-centralizada {
+     text-align: center;
+     padding: 20px 0;
+}
+
+h1 {
+    font-family: 'Play', sans-serif;
+    font-weight: normal;
+    font-size: 5em;
+   color: var(--cor-de-titulos);
+}
+
+h2 {
+    font-weight: normal;
+    padding: 0px 0px 20px 30px;
+    color: var(--cor-subtitulo);
+    
+}
+
+h3 {
+    font-weight: normal;
+    padding: 0px 0px 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer > a {
+    color: var(--cor-extra);
+    margin: 20px 18px;
+}
+
+
+.bi-github {
+    font-size: 1.8em;
+}
+
+.bi-instagram {
+    font-size: 1.8em;
+}
+
+section {
+    margin: 20px;
+}
+
+
