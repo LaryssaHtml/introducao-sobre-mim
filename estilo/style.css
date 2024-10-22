@@ -31,16 +31,23 @@
         }
 
       .h1-cell{
-         color:  #69468b;
+         color:  white;
          font-weight: 500;
          font-size: 3.7rem;
          padding-left: 18px;
          margin: 18px 0px;
      }
 
+     .title {
+        color: #8744a7;
+        
+     }
+
      .h2-cell{
         color: rgb(255, 255, 255);
         font-size: 1.3em;
+        margin-top: -20px;
+        margin-left: 15px;
      }
 
      .h3-cell{
