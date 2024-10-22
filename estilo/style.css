@@ -5,16 +5,90 @@
     src: url('../fontes/Play\ Day\ -\ Personal\ Use.otf') format('opentype');
 }
 
+@media (max-width: 768px) {
+     .principal {
+        background-color: black;
+        min-height: 100vh;
+        background-image: url('../imagens/wallpaper024.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+       .nav-principal {
+        display: inline;
+        align-items: center;
+        text-align: center;
+       }
+
+        .ul-principal{
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            padding: 20px;
+            
+        }
+
+      .h1-cell{
+         color:  #69468b;
+         font-weight: 500;
+         font-size: 3.7rem;
+         padding-left: 18px;
+         margin: 18px 0px;
+     }
+
+     .h2-cell{
+        color: rgb(255, 255, 255);
+        font-size: 1.3em;
+     }
+
+     .h3-cell{
+         color: #7f47ad;
+         font-weight: bolder;
+     }
+
+     .paragrafo-cell {
+        color: white;
+        line-height: 18px;
+        padding-bottom: 30px;
+        text-align: justify;
+     }
+
+     .paragrafo-secundario {
+        color: white;
+        line-height: 18px;
+     } 
+
+
+    .academy a{
+        color: #e06eeb;
+    }
+
+    .curso-em-video a{
+        color: #732bad;
+    }
+
+    .footer-principal {
+        box-shadow: 5px 3px 2px 3px white;
+    }
+    
+    .header-principal img{
+        border: 7px solid rgb(128, 72, 145);
+    }
+    
+}
+
 :root {
     --cor-principal:  #9F4BF2;
     --cor-leve:       #AF8AFF;
     --cor-paragrafos: #BEBFBD;
-    --cor-de-titulos: #803DDB;
+    --cor-de-titulos: #7c37aa;
     --cor-subtitulo:  #E3D6FF;
-    --cor-extra:      #726B80;
-    --cor-nav:        #EFDFFC;
+    --cor-extra:      #919192;
+    --cor-nav:        #060607;
     --cor-curso2:     #E93AB9;
-    --cor-curso1:     #602DEB;
+    --cor-curso1:     #4d0dfc;
 }
 
 * {
@@ -24,6 +98,12 @@
 
 body {
     background-color: black;
+    height: 100vh;
+    background-image: url('../imagens/wallpaper020.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -63,7 +143,7 @@ nav a:hover {
 }
 
 p {
-    line-height: 28px;
+    line-height: 26px;
 }
 
  header img {
@@ -73,7 +153,7 @@ p {
     border: 7px solid var(--cor-principal);
 }
 
-.coruja img {
+.simbolo img {
     width: 80px;
     height: 80px;
     border: none;
@@ -81,7 +161,7 @@ p {
     align-items: center;
 }
 
-.coruja {
+.simbolo {
     display: flex;
     align-items: center;
     text-align: center;
@@ -113,17 +193,7 @@ h2 {
 h3 {
     font-weight: 600;
     padding: 0px 0px 10px;
-    color: var(--cor-leve);
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-}
-
-footer > a {
-    color: var(--cor-extra);
-    margin: 20px 18px;
+    color: rgb(24, 24, 24);
 }
 
 
@@ -135,17 +205,21 @@ footer > a {
     font-size: 1.8em;
 }
 
+i:hover {
+    color: #7729ca;
+}
+
 section {
     margin: 22px;
 }
 
 section  a {
-    color: #553873;
+    color: #d5d0da;
     text-decoration: none;
 }
 
 section > p {
-    color: var(--cor-paragrafos);
+    color: black;  /*ALTERAR*/
     text-align: justify;
 }
 
@@ -158,7 +232,18 @@ section  a:hover {
 }
 
 
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 30px 0px 0px 0px;
+    box-shadow: 5px 5px 5px 5px rgba(2, 2, 2, 0.596);
+}
 
+footer > a {
+    color: white;
+    margin: 20px 18px;
+}
 
 
 
