@@ -8,11 +8,13 @@
 :root {
     --cor-principal:  #9F4BF2;
     --cor-leve:       #AF8AFF;
-    --cor-paragrafos: #D8BDFF;
+    --cor-paragrafos: #BEBFBD;
     --cor-de-titulos: #803DDB;
     --cor-subtitulo:  #E3D6FF;
     --cor-extra:      #726B80;
     --cor-nav:        #EFDFFC;
+    --cor-curso2:     #E93AB9;
+    --cor-curso1:     #602DEB;
 }
 
 * {
@@ -22,7 +24,6 @@
 
 body {
     background-color: black;
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -41,7 +42,7 @@ nav {
 nav > ul {
     display: flex;
     padding: 20px;
-   justify-content: space-between; 
+   justify-content: space-around; 
    list-style-type:  none;
    align-items: center;
    
@@ -61,6 +62,10 @@ nav a:hover {
     transition: 0.6s;
 }
 
+p {
+    line-height: 28px;
+}
+
  header img {
     width: 150px;
     height: 150px;
@@ -69,10 +74,18 @@ nav a:hover {
 }
 
 .coruja img {
-    display: flex;
     width: 80px;
     height: 80px;
     border: none;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.coruja {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: -30px;
     
 }
 
@@ -85,7 +98,7 @@ nav a:hover {
 h1 {
     font-family: 'Play', sans-serif;
     font-weight: normal;
-    font-size: 5em;
+    font-size: 6em;
    color: var(--cor-de-titulos);
 }
 
@@ -96,9 +109,11 @@ h2 {
     
 }
 
+
 h3 {
-    font-weight: normal;
+    font-weight: 600;
     padding: 0px 0px 10px;
+    color: var(--cor-leve);
 }
 
 footer {
@@ -121,7 +136,30 @@ footer > a {
 }
 
 section {
-    margin: 20px;
+    margin: 22px;
 }
+
+section  a {
+    color: #553873;
+    text-decoration: none;
+}
+
+section > p {
+    color: var(--cor-paragrafos);
+    text-align: justify;
+}
+
+section  a:hover {
+    color: var(--cor-curso1);
+}
+
+.academy a:hover{
+    color: var(--cor-curso2);
+}
+
+
+
+
+
 
 
