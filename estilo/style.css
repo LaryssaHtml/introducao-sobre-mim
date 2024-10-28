@@ -5,6 +5,7 @@
     src: url('../fontes/Play\ Day\ -\ Personal\ Use.otf') format('opentype');
 }
 
+
 /* Media Query para Telas Bem Pequenas (Menos de 480px) */
 @media (max-width: 480px) {
     .projeto-info {
@@ -248,7 +249,7 @@ h1 {
 .h1-secundario {
     font-family: 'Play', sans-serif;
     font-weight: normal;
-    font-size: 4em;
+    font-size: 4.7em;
 }
 
 h2 {
@@ -263,6 +264,10 @@ h3 {
     font-weight: 600;
     padding: 0px 0px 10px;
     color: rgb(24, 24, 24);
+}
+
+.h3-secundario {
+    text-shadow: none;
 }
 
 h1, h2, h3, p {
@@ -336,6 +341,7 @@ footer > a {
 
 .projeto-card {
     background-color: #fff;
+    background: linear-gradient(145deg, #d9b8f7, #e0e0e0);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -350,6 +356,8 @@ footer > a {
 .projeto-card img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .projeto-info {
@@ -382,4 +390,17 @@ footer > a {
 .projeto-info a:hover {
     background-color: #9D9B9C; /* Cinza */
     color: rgb(255, 255, 255);
+}
+
+.botao-voltar {
+    display: inline-block;
+    color: #9D9B9C; 
+    padding: 10px 20px; /* Espaçamento interno */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 16px; /* Tamanho da fonte */
+    transition:  0.3s; /* Efeito de transição */
+}
+
+.botao-voltar:hover {
+    color: rgb(88, 33, 105);
 }

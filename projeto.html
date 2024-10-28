@@ -4,36 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
     <title>Meus Projetos</title>
+    <style>
+        @media (max-width: 768px) {
+        body {
+            height: 100vh;
+            background-color: black;
+            background-image: url('./imagens/13.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    }
+
+    </style>
 </head>
 <body>
 
     <section class="projetos">
         <h1 class="h1-secundario">Meus Projetos</h1>
 
+        <a href="index.html" class="botao-voltar">Voltar para a Página Principal</a>
+
         <div class="galeria">
+            
     
             <!-- Cartão de Projeto -->
-             
+
             <div class="projeto-card">
+
                 <img src="./imagens/projeto1.png" alt="projeto 1">
+
                 <div class="projeto-info">
-                    <h3>Projeto 1</h3>
-                    <p>Breve descrição do projeto. Inclua detalhes principais e o objetivo.</p>
+
+                    <h3 class="h3-secundario">The Last Of Us</h3>
+
+                    <p>Um site dedicado ao jogo The Last of Us, com informações sobre personagens, história, habilidades e trailer.</p>
                     <a href="https://github.com/LaryssaHtml/projeto-the-last-of-us" target="_blank">Ver no GitHub</a>
+
                     <a href="https://laryssahtml.github.io/projeto-the-last-of-us/index.html" target="_blank">Ver Projeto</a>
+                      
                 </div>
+                
             </div>
     
             <!-- Repetir para outros projetos -->
             <div class="projeto-card">
+
                 <img src="./imagens/projeto2.png" alt="Projeto 2">
+
                 <div class="projeto-info">
-                    <h3>Projeto 2</h3>
-                    <p>Descrição breve do projeto e tecnologias usadas.</p>
+
+                    <h3 class="h3-secundario">Hellblade: Senua's Sacrifice</h3>
+
+                    <p>Um site que recria a tela inicial do jogo Hellblade Senua's Sacrifice, proporcionando uma experiência visual imersiva. Explore a arte única do jogo através deste projeto.</p>
                     <a href="https://github.com/seu-usuario/projeto2" target="_blank">Ver no GitHub</a>
+
                     <a href="https://link-do-projeto2.com" target="_blank">Ver Projeto</a>
+
                 </div>
+
             </div>
     
             <!-- Mais cartões de projeto aqui -->
