@@ -234,6 +234,8 @@ nav a:hover {
 
 p {
     line-height: 26px;
+    overflow-wrap: break-word;
+    line-break: loose;
 }
 
  header img {
