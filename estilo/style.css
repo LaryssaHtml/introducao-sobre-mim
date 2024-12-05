@@ -28,7 +28,7 @@
      .principal {
         background-color: black;
         min-height: 100vh;
-        background-image: url('../imagens/17.png');
+        background-image: url('../imagens/19.jpg');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -40,8 +40,14 @@
         align-items: center;
         text-align: center;
         font-size: 1.6em;
-        text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.418);
+        color: white;
+        text-shadow: 0px 2px 2px rgba(34, 32, 32, 0.418);
        }
+
+        .a-cell {
+            color: white;
+            font-weight: normal;
+        }
 
         .ul-principal {
             display: flex;
@@ -61,7 +67,7 @@
      }
 
      .title {
-        color: #6b3b80;
+        color: #8547a0;
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.603);
         
      }
@@ -70,40 +76,46 @@
         color: rgb(255, 255, 255);
         font-size: 1.3em;
         margin-left: 15px;
+        padding-top: 22px;
      }
 
      .h3-cell {
-         color: #ffffff;
+         color: #e4e5e6;
          font-weight: bolder;
+         padding-bottom: 22px;
      }
 
      .paragrafo-cell {
-        color: rgba(0, 0, 0, 0.801);
-        line-height: 17px;
+        color: rgba(255, 255, 255, 0.932);
+        line-height: 18px;
         padding-bottom: 30px;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.685);
+        text-shadow: 2px 2px 3px rgb(0, 0, 0);
      }
 
      .paragrafo-secundario {
-        color: rgba(0, 0, 0, 0.849);
+        color: rgba(255, 252, 252, 0.849);
         line-height: 17px;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.685);
+        text-shadow: 2px 2px 3px rgb(0, 0, 0);
      } 
 
     .academy a {
-        color: #fceb01;
+        color: #01fcef;
     }
 
     .curso-em-video a {
-        color: #fceb01;
+        color: #01fcef;
     }
 
     .footer-principal {
-        box-shadow: 5px 3px 2px 5px rgba(3, 0, 0, 0.295);
+        box-shadow: 5px 3px 2px 5px rgba(175, 174, 174, 0.295);
+    }
+
+    i {
+        color: rgb(228, 226, 227);
     }
     
     .header-principal img {
-        border: 4px solid rgb(128, 72, 145);
+        border: 4px solid rgb(75, 2, 143);
         margin-top: 50%;
         margin-bottom: 0;
     }
@@ -234,7 +246,7 @@ p {
 
 .imagem-centralizada {
      text-align: center;
-     padding: 10px 0;
+     padding: 20px 0;
 }
 
 h1 {
